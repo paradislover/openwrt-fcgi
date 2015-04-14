@@ -1,0 +1,24 @@
+From 0986c6f8c70c4bb6add9d5286ab2a16490b75c94 Mon Sep 17 00:00:00 2001
+From: Xu Wei <xuwei@marvell.com>
+Date: Tue, 14 Apr 2015 13:12:12 +0800
+Subject: [PATCH 1/2] stdio
+
+---
+ libfcgi/fcgio.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/libfcgi/fcgio.cpp b/libfcgi/fcgio.cpp
+index 5a54c11..9ecca45 100644
+--- a/libfcgi/fcgio.cpp
++++ b/libfcgi/fcgio.cpp
+@@ -23,6 +23,7 @@
+ #endif
+ 
+ #include <limits.h>
++#include <stdio.h>
+ #include "fcgio.h"
+ 
+ using std::streambuf;
+-- 
+1.9.1
+

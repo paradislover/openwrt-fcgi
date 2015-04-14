@@ -1,0 +1,39 @@
+From 002850169b5ece376d66cbee65cf04166f573551 Mon Sep 17 00:00:00 2001
+From: Xu Wei <xuwei@marvell.com>
+Date: Tue, 14 Apr 2015 13:12:45 +0800
+Subject: [PATCH 2/2] no_examples
+
+---
+ Makefile.am | 2 +-
+ Makefile.in | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index b35f7f3..c34a274 100755
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -4,7 +4,7 @@
+ #  $Id: Makefile.am,v 1.8 2003/11/02 21:42:47 robs Exp $
+ #
+ 
+-SUBDIRS = libfcgi cgi-fcgi examples include
++SUBDIRS = libfcgi cgi-fcgi include
+ 
+ include_HEADERS = fcgi_config.h
+ 
+diff --git a/Makefile.in b/Makefile.in
+index b694a1c..f1446a2 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -93,7 +93,7 @@ am__include = @am__include@
+ am__quote = @am__quote@
+ install_sh = @install_sh@
+ 
+-SUBDIRS = libfcgi cgi-fcgi examples include
++SUBDIRS = libfcgi cgi-fcgi include
+ 
+ include_HEADERS = fcgi_config.h
+ 
+-- 
+1.9.1
+
